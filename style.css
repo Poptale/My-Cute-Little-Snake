@@ -1,0 +1,32 @@
+*{
+    cursor: none;
+}
+body{
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    cursor: none;
+}
+.dot, .block, .block2, .block3, .block4, .block5, .block6, .block7, .block8, .block9, .block10, .block11, .block12, .block13, .block14, .block15, .block16, .block17, .block18, .block19, .block20, .block21, .block22, .block23, .block24, .block25, .block26, .block27, .block28, .block29, .block30, .block31, .block32, .block33, .block34, .block35, .block36, .block37, .block38, .block39, .block40, .block41, .block42, .block43, .block44, .block45, .block46, .block47, .block48, .block49, .block50{
+    border-radius: 50%;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 50px #23e701;
+}
+.dot{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    z-index: 100000;
+    box-shadow: none;
+}
+.block, .block2, .block3, .block4, .block5, .block6, .block7, .block8, .block9, .block10, .block11, .block12, .block13, .block14, .block15, .block16, .block17, .block18, .block19, .block20, .block21, .block22, .block23, .block24, .block25, .block26, .block27, .block28, .block29, .block30, .block31, .block32, .block33, .block34, .block35, .block36, .block37, .block38, .block39, .block40, .block41, .block42, .block43, .block44, .block45, .block46, .block47, .block48, .block49, .block50{
+    height: 80px;
+    width: 80px;
+    background-color: #23e701;
+    opacity: 0.5;
+}
